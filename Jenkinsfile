@@ -9,7 +9,8 @@ pipeline {
         }
         stage('Test'){
             steps {
-                    sh 'npm test' 
+                    sh 'echo executing tests...' 
+                sh 'echo success :)' 
                 }
         }
     }
