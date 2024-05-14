@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'chown -R jenkins:jenkins ~/.npm'
+                sh 'who'
                 sh 'npm install'
             }
         }
