@@ -5,6 +5,12 @@ pipeline {
             steps {
                 sh 'npm install' 
             }
+            
+        }
+        state('Test){
+            steps {
+                    sh 'npm test' 
+                }
         }
     }
 }
