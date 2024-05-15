@@ -4,10 +4,11 @@
   "description": "Simple Node.js API for note taking with CRUD operations",
   "main": "index.js",
   "scripts": {
-    "start":"node index.js",
+    "start": "node index.js",
     "test": "jest"
   },
   "dependencies": {
+    "cypress": "^13.9.0",
     "express": "^4.17.1"
   },
   "devDependencies": {
