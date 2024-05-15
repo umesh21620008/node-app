@@ -11,7 +11,7 @@ let notes = [
 
 // Get all notes
 app.get('/', (req, res) => {
-  res.json(notes);
+  res.send("hello");
 });
 app.get('/notes', (req, res) => {
   res.json(notes);
