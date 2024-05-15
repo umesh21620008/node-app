@@ -1,5 +1,5 @@
 module.exports = {
   projectId: "bdvjno",
-  supportFile: False,
+  supportFile: false,
   // ...rest of the Cypress project config
 }
